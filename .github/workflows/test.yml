@@ -26,6 +26,11 @@ jobs:
       - uses: actions/checkout@v3
         with: 
           path: main
+          
+      - uses: actions/checkout@v3
+        with: 
+          repository: Divanshu-Bansal/Demo 
+          path: demo
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -37,10 +42,22 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
+      - name: Printing the content of directory 
+        run: |
+          ls -la 
+      
       - name: Printing the content of main directory 
         run: |
           ls -la main
           
-      - name: Printing the content of file "data"
+      - name: Printing the content of demo directory 
+        run: |
+          ls -la demo
+          
+      - name: Printing the content of file "data" from main
         run: |
           cat main/data
+          
+      - name: Printing the content of file "pom" from demo
+        run: |
+          cat demo/pom.xml
