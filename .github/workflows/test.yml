@@ -39,7 +39,7 @@ jobs:
           
       - name: Printing the content of main directory 
         run: |
-          ls -la /main
+          ls -la main
           
       - name: Printing the content of file "data"
         run: |
