@@ -39,9 +39,8 @@ jobs:
           
       - name: Printing the content of main directory 
         run: |
-          cd /main
-          ls -la
+          ls -la /main
           
       - name: Printing the content of file "data"
         run: |
-          cat data
+          cat /main/data
