@@ -43,4 +43,4 @@ jobs:
           
       - name: Printing the content of file "data"
         run: |
-          cat /main/data
+          cat main/data
