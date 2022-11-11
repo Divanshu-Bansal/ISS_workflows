@@ -14,6 +14,6 @@ The new relic dashboards for VehicleDescriptions Service are monitoring the SLIs
 
 ## Availability
 
-- **Birds Eye View:** This chart shows the availability percentage for all the requests which are made to the service. The availabilty of the service will be impacted if it is returning https code 500. 
+- **Birds Eye View:** Chart showing the availability percentage for all the different requests which are made to the service. The availabilty of the service will be impacted if `HTTP Status Code >= 500`.
 
 - **Overall Availability(%):** This billboard shows the overall availability of our service in the time selected.
