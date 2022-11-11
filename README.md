@@ -1,4 +1,4 @@
-# New Relic Dashboards
+## New Relic Dashboards
 
 The new relic dashboards for VehicleDescriptions Service are monitoring the SLIs & SLOs which are defined below in the table:
 
@@ -8,12 +8,14 @@ The new relic dashboards for VehicleDescriptions Service are monitoring the SLIs
 
 | SLI            | Description                                          |Aggregation Interval                 |SLO Target  |
 | -------------- | -----------------------------------------------------|-------------------------------------|------------|
+| ​Availability  | The portion of valid requests served successfully.  | 28 days  | 99.9%  |
 | ​Latency (Single payload) | The portion of valid requests served faster than 250 ms for interfaces with a single payload. | 28 days  | 99.9%  |
 | ​Latency (Multi payload)  | The portion of valid requests served faster than 2 seconds for interfaces with multi payload. | 28 days | 99.5%  |
-| ​Availability  | The portion of valid requests served successfully.  | 28 days  | 99.9%  |
 
-## Availability
 
-- **Birds Eye View:** Chart showing the availability percentage for all the different requests which are made to the service. The availabilty of the service will be impacted if `HTTP Status Code >= 500`
-- **Overall Availability(%):** This billboard shows the overall availability of our service in the time selected
-- 
+### Availability
+
+- **Birds Eye View:** Chart showing the availability percentage for all the different types of requests which are made to the service. The availabilty of the service will be impacted if `HTTP Status Code >= 500`
+- **Overall Availability(%):** Billboard showing the overall availability of our service
+- **Overall SLO Attainment:** Billboard showing the overall SLO attainment with respect to availability
+- **Requests:** Table showing the details about the total number of requests, valid requests out of total requests, invalid requests out of total requests, number of vehicles processed, number of payload with errors and availability percentage for all different type of requests
