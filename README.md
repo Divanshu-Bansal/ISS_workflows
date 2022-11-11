@@ -19,8 +19,8 @@ The new relic dashboards for VehicleDescriptions Service are monitoring the SLIs
 - **Overall Availability(%):** Billboard showing the overall availability of our service
 - **Overall SLO Attainment:** Billboard showing the overall SLO attainment with respect to availability
 - **Requests:** Table showing the details about the total number of requests, valid requests out of total requests, invalid requests out of total requests, number of vehicles processed, number of payload with errors and availability percentage for all different type of requests
-- **Errors (Impacting Availability SLO) [CHART]:** Chart showing the percentage of requests having HTTP status code >= 500 at a particular time
-- **Errors (Impacting Availability SLO) [TABLE]:** Table showing the details about the HTTP status code, error name, error message and number of the errors for the requests having HTTP status code >= 500 
-- **Client Errors [CHART]:** Chart showing the percentage of requests having HTTP status code >= 300 and HTTP status code < 500 at a particular time
-- **Client Errors [TABLE]:** Table showing the details about the HTTP status code and the number of errors occured for different type of requests having HTTP status code >= 300 and HTTP status code < 500
+- **Errors (Impacting Availability SLO) [CHART]:** Chart showing the percentage of requests having `HTTP status code >= 500` at a particular time
+- **Errors (Impacting Availability SLO) [TABLE]:** Table showing the details about the HTTP status code, error name, error message and number of the errors for the requests having `HTTP status code >= 500` 
+- **Client Errors [CHART]:** Chart showing the percentage of requests having `HTTP status code >= 300 and HTTP status code < 500` at a particular time
+- **Client Errors [TABLE]:** Table showing the details about the HTTP status code and the number of errors occured for different type of requests having `HTTP status code >= 300 and HTTP status code < 500`
 - **Vehicle Count:** Chart showing the number of vehicles proccessed at a particular time for different type of requests
