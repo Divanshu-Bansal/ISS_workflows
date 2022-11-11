@@ -2,7 +2,7 @@
 
 The new relic dashboards for VehicleDescriptions Service are monitoring the SLIs & SLOs which are defined below in the table:
 
-`**NOTE** Default monitoring time on dashboard is 3 hours. This time frame can be changed from New Relic console as per the requirements.`
+> **NOTE:** Default monitoring time on dashboard is 3 hours. This time frame can be changed from New Relic console as per the requirements.  
 
 ### SLIs & SLOs
 
