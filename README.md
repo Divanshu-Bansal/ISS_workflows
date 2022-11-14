@@ -7,10 +7,10 @@ The new relic dashboards for VehicleDescriptions Service are monitoring the SLIs
 ### SLIs & SLOs
 
 | SLI               | Description                                    | Source                  |Aggregation Interval        |SLO Target  |
-| ----------------- | ----------------------------------------------- | ----------------- | ------- | ---------- |
-| ​Availability     | The portion of valid requests served successfully                | https://onenr.io/0kjn2N3L9jo |28 days | 99.9%  |
-| ​Latency (Single payload) | The portion of valid requests served faster than 250 ms for interfaces with a single payload | https://onenr.io/0BR61qAvGwO |28 days | 99.9%  |
-| ​Latency (Multi payload)  | The portion of valid requests served faster than 2 seconds for interfaces with multi payload | https://onenr.io/0EjOg5keDj6 |28 days | 99.5%  |
+| ----------------- | ---------------------------------------------- | ----------------------- | -------------------------- | ---------- |
+| ​Availability     | The portion of valid requests served successfully                | [Availability](https://onenr.io/0kjn2N3L9jo) |28 days | 99.9%  |
+| ​Latency (Single payload) | The portion of valid requests served faster than 250 ms for interfaces with a single payload | [Latency (Single payload)](https://onenr.io/0BR61qAvGwO) |28 days | 99.9%  |
+| ​Latency (Multi payload)  | The portion of valid requests served faster than 2 seconds for interfaces with multi payload | [Latency (Multi payload)](https://onenr.io/0EjOg5keDj6) |28 days | 99.5%  |
 
 
 ### Availability
